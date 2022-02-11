@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.itDidacticsTest.Lessons">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="816" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e77f9" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-32240"/>
+          <enabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="e00ae" class="javax.swing.JLabel" binding="mainLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="720" height="-1"/>
+                <maximum-size width="720" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="15"/>
+              <foreground color="-4917048"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Second Polish Republic (1918-1939)"/>
+            </properties>
+          </component>
+          <scrollpane id="49125">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="720" height="-1"/>
+                <maximum-size width="720" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-32240"/>
+              <horizontalScrollBarPolicy value="31"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="34629" class="javax.swing.JTextPane" binding="lessonText">
+                <constraints/>
+                <properties>
+                  <background color="-32240"/>
+                  <editable value="false"/>
+                  <enabled value="true"/>
+                  <foreground color="-4917048"/>
+                  <text value="Following World War I all the Allies agreed on the reconstitution of Poland that United States President Woodrow Wilson proclaimed in Point 13 of his Fourteen Points. A total of 2 million Polish troops fought with the armies of the three occupying powers, and 450,000 died. Shortly after the armistice with Germany in November 1918, Poland regained its independence as the Second Polish Republic (II Rzeczpospolita Polska). It reaffirmed its independence after a series of military conflicts, the most notable being the Polish–Soviet War (1919–1921) when Poland inflicted a crushing defeat on the Red Army at the Battle of Warsaw, an event which is considered to have halted the advance of Communism into Europe and forced Vladimir Lenin to rethink his objective of achieving global socialism. The event is often referred to as the &quot;Miracle at the Vistula&quot;.&#10;&#10;During this period, Poland successfully managed to fuse the territories of the three former partitioning powers into a cohesive nation state. Railways were restructured to direct traffic towards Warsaw instead of the former imperial capitals, a new network of national roads was gradually built up and a major seaport, Gdynia, was opened on the Baltic Coast, so as to allow Polish exports and imports to bypass the politically charged Free City of Danzig. Also, the Polish government embarked on the creation of the Central Industrial Region (Centralny Okręg Przemysłowy). The project's goal was to create an industrial center in the middle of the country that included steel mills, power plants and factories.&#10;The inter-war period heralded in a new era of Polish politics. Whilst Polish political activists had faced heavy censorship in the decades up until the First World War, the country now found itself trying to establish a new political tradition. For this reason, many exiled Polish activists, such as Ignacy Paderewski (who would later become prime minister) returned home to help; a significant number of them then went on to take key positions in the newly formed political and governmental structures. Tragedy struck in 1922 when Gabriel Narutowicz, inaugural holder of the presidency, was assassinated at the Zachęta Gallery in Warsaw by a painter and right-wing nationalist Eligiusz Niewiadomski.&#10;&#10;In 1926, a May coup, led by the hero of the Polish independence campaign Marshal Józef Piłsudski, turned rule of the Second Polish Republic over to the nonpartisan Sanacja (Healing) movement in an effort to prevent radical political organizations on both the left and the right from destabilizing the country. The movement functioned with relative stability until Piłsudski's death in 1935. Following Marshal Piłsudski's death, Sanation split into several competing factions. By the late 1930s, due to increased threats posed by political extremism inside the country, the Polish government became increasingly heavy-handed, banning a number of radical organizations, including communist and ultra-nationalist political parties, which threatened the stability of the country.&#10;"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="aba4" class="javax.swing.JButton" binding="backButton">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Finish Lesson"/>
+            </properties>
+          </component>
+          <component id="d088" class="javax.swing.JButton" binding="learnMoreWithVideoButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Learn more with video"/>
+            </properties>
+          </component>
+          <component id="6c56" class="javax.swing.JButton" binding="listenToTextButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Listen to text"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
